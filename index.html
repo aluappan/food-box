@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-topo">
+        <h1>Foodbox</h1>
+        <h2>Monte seu box e receba em 15 minutos!</h2>
+      </div>
+      <h3>Primeiro, seu prato</h3>
+      <div id="frango" class="produto" onclick="escolherFrango()"
+        <img
+          src="https://images.unsplash.com/photo-1562967915-92ae0c320a01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+          alt="frango"
+        />
+  
+        <h4>Frango Yin-Yang</h4>
+        <p>Um pouco de salada, um pouco de batata</p>
+        <p><strong>R$: 19,90</strong></p>
+      </div>
+  
+      <div id="carne" class="produto" onclick="escolherCarne()">
+        <img
+          src="https://images.unsplash.com/photo-1583549323189-5a3335634f4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          alt="carne"
+        />
+  
+        <h4>Carne e salada</h4>
+        <p>Partida ao meio para parecer mais carne</p>
+        <p><strong>R$: 24,90</strong></p>
+      </div>
+  
+      <h3>Agora sua bebida</h3>
+      <div id="coca-cola" class="produto" onclick="escolherCoca()">
+        <img
+          src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt="coca-cola"
+        />
+        <h4>Coca-Cola gelada</h4>
+        <p>Normal, zero ou stevia.</p>
+        <p><strong>R$: 6,90</strong></p>
+      </div>
+  
+      <div id="refresco" class="produto" onclick="escolherRefresco()">
+        <img
+          src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+          alt="sucos"
+        />
+        <h4>Refresco</h4>
+        <p>Suco geladinho!</p>
+        <p><strong>R$: 5,90</strong></p>
+      </div>
+  
+      <h3>Por fim, sua sobremesa</h3>
+      <div id="pudim" class="produto" onclick="escolherPudim()">
+        <img src="https://images.pexels.com/photos/302468/pexels-photo-302468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pudim">
+        <h4>Pudim</h4>
+        <p>Apenas um lindo e brilhante pudim</p>
+        <p><strong>R$ 7,90</strong></p>
+      </div>
+  
+      <div id="sorvete" class="produto" onclick="escolherSorvete()">
+        <img src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="sorvete">
+        <h4>Sorvete bem gelado</h4>
+        <p>Três bolinhas de sorteve</p>
+        <p><strong>$S 6,90 </strong></p>
+      </div>
+  
+      <div class="botao" onclick="finalizarPedido()">
+        Finalizar Pedido
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
